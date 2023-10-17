@@ -7,8 +7,7 @@
 
 # 1. Read the data
 #    This step includes obtaining the covariates measured during a range of time according to some prior knowledge (Step 1. from the Supplementary Material S.4)
-setwd("C:/Users/danye/OneDrive/Ambiente de Trabalho/PDMA/2º ano/Tese/Campanhas Sardinha 2000-2020/Github")
-load("simulated_data2.rds")
+load("~/simulated_data2.rds")
 
 # 2. Create the kernel covariate for each covariate measured during an past time interval
 #    Apply the 'apply.kernel' for each covariate.
