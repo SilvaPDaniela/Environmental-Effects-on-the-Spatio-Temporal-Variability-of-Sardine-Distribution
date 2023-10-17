@@ -6,6 +6,28 @@
 
 # Libraries
 library(INLA)
+library(ggplot2)
+library(rgeos)
+library(spatstat)
+library(rgdal)
+library(raster)
+library(rasterVis)
+library(classInt)
+library(RColorBrewer)
+library(fields)
+library(gridExtra)
+library(lattice)
+library(RGeostats)
+library(knitr)
+library(gstat)
+library(DT)
+library(raster)
+library(splines)
+library(plyr)
+library(prevR)
+library(spatialEco)
+library(vcd)
+library(car)
 library(mgcv)
 
 # 1. Read the data with kernel covariates and the evaluation of them
